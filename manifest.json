@@ -1,0 +1,10 @@
+{
+  "name" : "chrome_youtube_mp3_dl",
+  "version" : "0.0.1",
+  "permissions" : [ "nativeMessaging", "contextMenus", "tabs" ],
+  "manifest_version": 2,
+  "description": "Download youtube audio",
+  "background": {
+    "scripts": [ "background.js" ]
+    }
+}

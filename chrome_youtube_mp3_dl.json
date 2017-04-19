@@ -1,0 +1,9 @@
+{
+    "name": "chrome_youtube_mp3_dl",
+    "description": "Chrome Native Messaging API Example Host",
+    "path": "/home/toughluck/Workspace/github-projects/chrome-youtube-mp3-dl/DownloadYT.js",
+    "type": "stdio",
+    "allowed_origins": [
+        "chrome-extension://bhbcefgikdpcjpnfkbkdhhipdbjmimnl/"
+    ]
+}
