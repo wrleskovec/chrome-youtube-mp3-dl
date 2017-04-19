@@ -24,10 +24,10 @@ process.stdin.on('end', () => {
   const cmdOptions = {
     shell: '/bin/bash'
   };
-  const cmd = `youtube-dl --extract-audio --audio-format mp3 -o \"${outTemplate}\" ${url}`;
-  const args = ['--extract-audio', '--audio-format', 'mp3', '-o', outTemplate, url];
-  const cmd2 = 'youtube-dl';
-  fs.writeFile('file.gay', cmd);
+  const cmd = `youtube-dl --extract-audio --audio-format mp3 -o \"${outTemplate}\" ${url} &> d.txt`;
+  // const args = ['--extract-audio', '--audio-format', 'mp3', '-o', outTemplate, url];
+  // const cmd2 = 'youtube-dl';
+
   process.stderr.write('Suck it chrome');
   process.stderr.write('stderr doesnt stop host');
 
