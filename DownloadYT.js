@@ -1,7 +1,7 @@
 #! /usr/bin/env node
 "use strict";
 
-const exec = require('child_process').execSync;
+const exec = require('child_process').exec;
 
 const dlPath = '/home/toughluck/Music';
 
